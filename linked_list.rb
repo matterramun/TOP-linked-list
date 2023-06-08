@@ -63,6 +63,8 @@ class List
       end
     end
   end
+  
+ 
 end
 
 test_list = List.new
@@ -75,6 +77,8 @@ p test_list
 p test_list.size
 puts test_list.contains?('test5')
 puts test_list.contains?('test3')
+p test_list.head.data
+p test_list.tail.data
 =begin 
 p test.find('test2')
 p test.find('test5')
